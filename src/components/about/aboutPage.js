@@ -21,43 +21,54 @@ const WorkPage = () => {
       </Fade> */}
 
       <Fade bottom cascade>
-        <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
-          </div>
+  <div className="mt-10 flex flex-wrap justify-center items-center gap-6 text-center">
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
+    {/* Card 1 - Prestasi */}
+    <div className="w-full sm:w-1/3 bg-gradient-to-br from-white to-purple-50 p-8 rounded-2xl shadow-md hover:shadow-xl transform transition duration-500 hover:scale-105 border border-purple-200">
+      <h3 className="text-purple-700 text-2xl font-semibold">Prestasi</h3>
+      <h4 className="mt-4 text-gray-700 text-lg">
+        SMK Gapura Pertiwi terus mencetak siswa berprestasi yang disiplin, kreatif, dan berdaya saing tinggi.
+      </h4>
+    </div>
+
+    {/* Card 2 - Fasilitas */}
+    <div className="w-full sm:w-1/3 bg-gradient-to-br from-white to-purple-50 p-8 rounded-2xl shadow-md hover:shadow-xl transform transition duration-500 hover:scale-105 border border-purple-200">
+      <h3 className="text-purple-700 text-2xl font-semibold">Fasilitas</h3>
+      <h4 className="mt-4 text-gray-700 text-lg">
+        Dilengkapi Ruang Praktek, ruang belajar nyaman, dan teknologi pendukung pembelajaran.
+      </h4>
+    </div>
+
+    {/* Card 3 - Kegiatan */}
+    <div className="w-full sm:w-1/3 bg-gradient-to-br from-white to-purple-50 p-8 rounded-2xl shadow-md hover:shadow-xl transform transition duration-500 hover:scale-105 border border-purple-200">
+      <h3 className="text-purple-700 text-2xl font-semibold">Kegiatan</h3>
+      <h4 className="mt-4 text-gray-700 text-lg">
+        Beragam kegiatan ekstrakurikuler membentuk karakter, kepemimpinan, dan kerja sama antar siswa.
+      </h4>
+    </div>
+
+    {/* Card 4 - Guru & Pembimbing */}
+    <div className="w-full sm:w-1/3 bg-gradient-to-br from-white to-purple-100 p-8 rounded-2xl shadow-md hover:shadow-xl transform transition duration-500 hover:scale-105 border border-purple-200">
+      <h3 className="text-purple-700 text-2xl font-semibold">kualitas guru</h3>
+      <h4 className="mt-4 text-gray-700 text-lg">
+        Tenaga pendidik profesional dan berpengalaman siap membimbing siswa menuju kesuksesan.
+      </h4>
+    </div>
+
+  </div>
+</Fade>
+
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+        <h2 className="text-black text-4xl font-semibold">Kualitas dan Kompetensi</h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+          Saatnya Meningkatkan Skill ke Level Berikutnya
         </h3>
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Di SMK Gapura Pertiwi, setiap siswa dibimbing untuk menemukan potensinya. 
+          Menggunakan pendekatan pembelajaran praktis dan teknologi terbaru, 
+          kami membantu generasi muda membuka peluang karier terbaik sejak di bangku sekolah.
         </p>
       </div>
     </div>

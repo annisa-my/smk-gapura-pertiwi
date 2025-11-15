@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/logo gapura.png"
 
 const Footer = () => {
   return (
@@ -12,10 +12,9 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
+                SMK GAPURA PERTIWI<br></br> mencetak generasi siap kerja dan berprestasi
                 <br></br>
-                built with Gatsby.
+                SMK bisa! SMK Gapura Pertiwi hebat.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -25,7 +24,7 @@ const Footer = () => {
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                    Annisa
                   </a>
 
                   <a
@@ -39,11 +38,11 @@ const Footer = () => {
                     href="https://github.com/lilxyzz/holo-theme"
                     target="_blank"
                   >
-                    <img
+                    {/* <img
                       className="w-5 h-5 mt-1"
                       src="/img/Github-Logo.png"
                       alt="GitHub"
-                    ></img>
+                    ></img> */}
                   </a>
                 </p>
               </div>

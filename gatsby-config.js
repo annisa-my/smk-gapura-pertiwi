@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Holo - Gatsby Starter`,
+    title: `SMK GAPURA PERTIWI`,
     description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
     siteUrl: "https://holo-theme.netlify.app/",
     author: `Travis Lord <hi@travislord.xyz>`,
@@ -79,7 +79,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
+        name: `SMK GAPURA PERTIWI`,
         short_name: `Holo`,
         start_url: `/`,
         background_color: `#ebebfa`,

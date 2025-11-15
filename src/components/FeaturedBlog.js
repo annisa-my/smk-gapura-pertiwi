@@ -7,20 +7,15 @@ const FeaturedBlog = () => {
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
           <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
-            STAY UP TO DATE
+            From SMK GAPURA PERTIWI
           </h2>
-          <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Latest Posts
-          </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              SMK GAPURA PERTIWI 
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              "SMK Gapura Pertiwi adalah Sekolah yang berfokus pada Kejuruan Teknik Komputer Jaringan (TKJ) dan 
+              Teknik Kendaraan Ringan Otomotif (TKRO)"
             </p>
             <a
               href="/blog/blog-post"
@@ -47,13 +42,12 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                VISI DAN MISI
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Dengan visi dan misi yang kuat, SMKS Gapura Pertiwi berupaya menciptakan 
+                lulusan yang mampu bersaing di dunia kerja dan menjadi sumber daya manusia yang berkualitas. 
+                Informasi lebih lanjut tentang SMKS Gapura Pertiwi
               </p>
               <a
                 href="/blog/blog-post-1"
@@ -79,13 +73,12 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Fasilitas dan sumber daya manusia
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Selain fasilitas, SMKS Gapura Pertiwi juga memiliki sumber daya manusia yang berkualitas dan berpengalaman di bidangnya. 
+                Hal ini terwujud melalui program-program pembelajaran yang dirancang untuk membekali siswa dengan keterampilan dan pengetahuan yang relevan 
+                dengan kebutuhan dunia kerja.
               </p>
               <a
                 href="/blog/blog-post-2"

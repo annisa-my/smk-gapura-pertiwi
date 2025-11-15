@@ -1,23 +1,17 @@
 import React from "react"
-import AboutTeamCard from "./aboutTeamCard"
+import gapura1 from "../../images/gapura1.jpg"
+import gapura3 from "../../images/gapura3.webp"
+import gapura2 from "../../images/gapura1.jpg"
 
 const AboutGrid = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 my-20 grid grid-cols-3 gap-16 justify-items-center xxs:grid-cols-1 sm:grid-cols-3">
-      <AboutTeamCard
-        imgSrc="https://i.postimg.cc/HWhyyLNH/Holographic-Liquid3.webp"
-        position="Holographic Liquid"
-      ></AboutTeamCard>
-      <AboutTeamCard
-        imgSrc="https://i.postimg.cc/WbBzjWWc/Holographic-Liquid2.webp"
-        position="Holographic Liquid"
-      ></AboutTeamCard>
-      <AboutTeamCard
-        imgSrc="https://i.postimg.cc/907FTc4F/Holographic-Liquid1.webp"
-        position="Holographic Liquid"
-      ></AboutTeamCard>
+     <img alt="Image" src={gapura1}></img>
+     <img alt="Image" src={gapura3}></img>
+     <img alt="Image" src={gapura1}></img>
+     
     </div>
   )
 }
 
-export default AboutGrid
+export default AboutGrid
