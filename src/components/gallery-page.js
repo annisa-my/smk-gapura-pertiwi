@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/logo gapura.png"
+import HeroImage from "../images/logo-gapura.png"
 import BackGroud from "../images/holographic-background.webp"
 
 const Gallery = () => {
