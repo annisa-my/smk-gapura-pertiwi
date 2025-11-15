@@ -72,7 +72,7 @@ const Header = () => {
             <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
               <img
                 className="rounded-xl w-auto h-full object-cover flex justify-center shadow-xl"
-                src={hero}
+                src={Hero}
                 alt="SMK Gapura Pertiwi"
               />
             </div>
