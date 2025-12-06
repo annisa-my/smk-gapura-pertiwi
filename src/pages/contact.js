@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/poster.png"
 
 const Contact = () => {
   return (
@@ -84,7 +84,7 @@ const Contact = () => {
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="mailto:hello@holo.com?subject=Contact smk gapura pertiwi for help.">
-                          hello@holo.com
+                          dapodikgapura2020@gmail.com
                         </a>
                       </p>
                     </div>
@@ -213,15 +213,16 @@ const Contact = () => {
             </form>
           </div>
         </Fade>
-        <Fade bottom cascade>
-          <div className="w-1/4 overflow-hidden rounded-xl m-5 xxs:hidden sm:block">
-            <img
-              className="object-cover h-full w-full"
-              src={image}
-              alt="HeroImage"
-            ></img>
-          </div>
-        </Fade>
+       <Fade bottom cascade>
+      <div className="w-[280px] rounded-xl m-5 xxs:hidden sm:block">
+    <img
+      className="w-full h-auto rounded-xl"
+      src={image}
+      alt="HeroImage"
+    />
+  </div>
+</Fade>
+
       </div>
     </Layout>
   )
