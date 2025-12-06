@@ -60,7 +60,7 @@ const FeatureSection = () => {
             </h3>
             <p>Menorehkan Prestasi di Bidang Pendidikan Vokasi</p>
               sebuah lembaga pendidikan swasta di bawah naungan Kementerian Pendidikan dan Kebudayaan, berdiri kokoh di Jalan Raya Kronjo KM. 1,2, Kali Asin, Kecamatan Sukamulya, 
-              Kabupaten Tangerang, Provinsi Banten. Dengan akreditasi B yang diraih pada 09 September 2019 berdasarkan SK No.755/BAN-SM/SK/2019, 
+              Kabupaten Tangerang, Provinsi Banten. Dengan Akreditasi B yang diraih pada 09 September 2019 berdasarkan SK No.755/BAN-SM/SK/2019, 
                sekolah ini menunjukkan komitmennya dalam menyediakan pendidikan vokasi berkualitas bagi generasi muda.
             <div className="mt-6 flex justify-center lg:justify-end gap-3">
               <a
