@@ -18,14 +18,16 @@ function Seo({ description, lang, meta, title }) {
           title
           description
           author
+          keywords
+          siteUrl
         }
       }
-    }
+  }
   `)
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-
+  const siteKeywords = site.siteMetadata.keywords
   return (
     <Helmet
       htmlAttributes={{
@@ -39,6 +41,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: siteKeywords,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -47,7 +53,7 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          property: `og:type`,
+        property: `og:type`,
           content: `website`,
         },
         {
@@ -75,6 +81,7 @@ Seo.defaultProps = {
   lang: `en-AU`,
   meta: [],
   description: ``,
+  keywords: [],
 }
 
 Seo.propTypes = {
@@ -82,6 +89,7 @@ Seo.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  keywords: PropTypes.arrayOf(PropTypes.string),
 }
 
 export default Seo

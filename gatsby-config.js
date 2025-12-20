@@ -4,9 +4,10 @@ module.exports = {
   },
   siteMetadata: {
     title: `SMK GAPURA PERTIWI`,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
-    siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    description: `smk gapura pertiwi adalah sekolah menengah kejuruan yang berlokasi di tangerang`,
+    siteUrl: "https://smkgapurapertiwi.web.id/",
+    author: `Annisa Yulianti`,
+    keywords: "smk gapura pertiwi, sekolah menengah kejuruan, tangerang",
   },
   plugins: [
     `gatsby-plugin-image`,
