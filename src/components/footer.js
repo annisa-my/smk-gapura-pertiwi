@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
+              <img className="max-h-28 max-w-xs" src={logo} alt="holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
                 SMK GAPURA PERTIWI<br></br> mencetak generasi siap kerja dan berprestasi
                 <br></br>
