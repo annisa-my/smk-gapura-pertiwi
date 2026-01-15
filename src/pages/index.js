@@ -17,6 +17,30 @@ const IndexPage = () => (
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>
+     {/* MAPS SEKOLAH */}
+<div style={{ padding: "40px 20px" }}>
+  <h2>📍 Lokasi SMK Gapura Pertiwi</h2>
+
+  <div
+    style={{
+      width: "100%",
+      height: "400px",
+      borderRadius: "16px",
+      overflow: "hidden",
+      marginTop: "10px",
+    }}
+  >
+    <iframe
+      src="https://www.google.com/maps?q=SMK+Gapura+Pertiwi+Tangerang&output=embed"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+      title="Lokasi SMK Gapura Pertiwi"
+    ></iframe>
+  </div>
+</div>
       <FeaturedBlog></FeaturedBlog>
       <Testimonial></Testimonial>
     </Layout>
